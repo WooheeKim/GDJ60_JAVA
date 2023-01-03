@@ -9,7 +9,6 @@ public class Main {
 		
 		mc.start();
 		
-		System.out.println("집에서추가한내용");
 		System.out.println("finish");
 	}
 
