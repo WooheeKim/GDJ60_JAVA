@@ -6,6 +6,15 @@ public class Monster {
 	int power;
 	int hp;
 	
+	// 생성자(Constructor)
+	public Monster() {
+		// 매개변수가 없는 생성자를 기본 생성자, default Constructor
+		this.power=50;
+		this.hp=60;
+		System.out.println("생성자 실행");
+	} 
+
+	
 	
 	// 멤버메서드, Instance method
 	
