@@ -1,6 +1,7 @@
 package com.woo.s4.objects2;
 
 public class Car {
+	
 	static String company="BMW";
 	String name;
 	int price;
@@ -23,19 +24,19 @@ public class Car {
 	}
 	
 	public Car(String color) {
-//		this(color, 3500);
-		this.company = "KIA";
-		this.name = "스포티지";
-		this.price = 3000;
-		this.color = color;
+		this(color, 3500);
+//		this.company = "KIA";
+//		this.name = "스포티지";
+//		this.price = 3000;
+//		this.color = color;
 	}
 	
 	public Car(String color, int price) {
-//		this(color,price,"A6");
-		this.company = "KIA";
-		this.name = "스포티지";
-		this.price = price;
-		this.color = color;
+		this(color,price,"스포티지");
+//		this.company = "KIA";
+//		this.name = "스포티지";
+//		this.price = price;
+//		this.color = color;
 	}
 	
 	public Car(String color, int price, String name) {

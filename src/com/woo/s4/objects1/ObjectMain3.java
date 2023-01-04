@@ -21,11 +21,10 @@ public class ObjectMain3 {
 		}
 		
 		for(int i=0;i<students.length;i++) {
-			System.out.println(students2[i]);
+			System.out.println(students[i]);
 			System.out.println(students[i].name);
 //			System.out.println(students2[i].name);
 		}
-		
 		
 		System.out.println("종료");
 	}

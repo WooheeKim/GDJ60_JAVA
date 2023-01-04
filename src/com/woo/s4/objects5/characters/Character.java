@@ -9,7 +9,7 @@ public abstract class Character {
 		this.name = name;
 	}
 	
-	public Character
+	public Character() {}
 	
 	public int getLevel() {
 		return level;

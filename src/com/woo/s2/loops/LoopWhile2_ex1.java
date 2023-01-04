@@ -38,9 +38,9 @@ public class LoopWhile2_ex1 {
 				System.out.println("종료합니다.");
 				check =! check; // check = false;랑 같음
 			}
-			
-			
 		}
+		
+		System.out.println("Check : "+check);
 		
 //		로그인 후 게임진행		
 		if(check) {
@@ -60,7 +60,8 @@ public class LoopWhile2_ex1 {
 //				if(level==5) {
 //					System.out.println("5렙 달성 축하금");
 //					gold = gold+1000;;
-//				}//				
+//				}
+				
 //				if(level==10) {
 //					System.out.println("10렙 달성 축하금");
 //					gold = gold+2000;

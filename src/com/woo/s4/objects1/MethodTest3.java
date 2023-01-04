@@ -4,10 +4,8 @@ public class MethodTest3 {
 	
 	public void t3(int salary,double tax) {
 		// 실급여를 계산하는 메서드
-		salary= (int)(salary*tax);
+		salary = (int)(salary*tax);
 		System.out.println("T3 : "+salary);
-		
-		
 	}
 	
 	public void info(Sword sword) {

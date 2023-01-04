@@ -14,7 +14,9 @@ public class Monster {
 		System.out.println("생성자 실행");
 	} 
 
-	
+	public Monster(int power) {
+		
+	}
 	
 	// 멤버메서드, Instance method
 	
@@ -27,8 +29,9 @@ public class Monster {
 		}
 	}
 	
-	// 공격
+	public void info(int a) {}
 	
+	// 공격
 	// 어슬렁 돌아다님
 	public void info() {
 		System.out.println(this);

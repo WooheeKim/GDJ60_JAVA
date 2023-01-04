@@ -15,7 +15,6 @@ public class Array1 {
 			int num = 10;
 		}
 		
-		
 		// 배열선언 공식
 		// 모으려고 하는 데이터타입 [] 변수명
 		// new라고 붙어있으면 Heap영역
@@ -24,6 +23,7 @@ public class Array1 {
 		int [] ar2 = new int[3];
 		System.out.println(d1);
 		System.out.println(ar);
+		
 		ar[0] = 3.3;
 		ar[1] = 5.2;
 		

@@ -10,7 +10,7 @@ public class Control1 {
 		System.out.println("프로그램 시작");
 		double avg = 80.12;
 		boolean check=true;
-		int don = 0;
+		int don = 50;
 		
 		if(avg >= 90) {
 			System.out.println("우등상 수상");

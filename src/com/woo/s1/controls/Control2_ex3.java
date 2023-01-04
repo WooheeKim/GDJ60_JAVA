@@ -33,18 +33,22 @@ public class Control2_ex3 {
 			
 			System.out.println("1. 정규직    2. 계약직");
 			int select = sc.nextInt();
+			
 			if(select==1){
 				System.out.println("정규직 선택");
 				int tax = 0;
 //				//고용보험
 //				int tax1 = (int)(salary * 0.02);
 				tax = tax + (int)(salary * 0.02);
+				
 //				//의료보험
 //				int tax2 = (int)(salary * 0.03);
 				tax = tax + (int)(salary * 0.03);
+				
 //				//산재보험
 //				int tax3 = (int)(salary * 0.01);
 				tax = tax +(int)(salary * 0.01);
+				
 //				//국민연금
 //				int tax4 = (int)(salary * 0.01);
 				tax = tax +(int)(salary * 0.01);

@@ -10,13 +10,12 @@ public class LoopFor1 {
 		System.out.println("반복문의 횟수를 입력하세요 : ");
 		int count=sc.nextInt();
 		
-		int i=0;
-		for(i=0;i<count;i++) {
+		for(int i=1;i<=count;i++) {
 			System.out.println("Hello World");
 			System.out.println("Good Bye");
 			System.out.println(i);
 		}
-		System.out.println(i);
+//		System.out.println(i);
 		
 		System.out.println("Finish");
 	}

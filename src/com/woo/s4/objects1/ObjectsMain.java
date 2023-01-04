@@ -39,7 +39,10 @@ public class ObjectsMain {
 		System.out.println(student2.kor);
 		System.out.println(student2.eng);
 		System.out.println(student2.math);
+		int a = 20;
+		int b = 10;
 		
+		a=b;
 		System.out.println(student==student2);
 		
 		student = student2;

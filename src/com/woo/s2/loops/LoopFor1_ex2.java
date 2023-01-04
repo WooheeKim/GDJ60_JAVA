@@ -24,12 +24,12 @@ public class LoopFor1_ex2 {
 		int sec = sc.nextInt();
 		
 		for(int i=0;i<60;i++) {
-			System.out.println(i+sec+"초");
+			System.out.println(i+"초");
 			if(sec==i) {
 				i=59;
+				break;
 			}
 		}
 		System.out.println("종료");
-		
 	}
 }

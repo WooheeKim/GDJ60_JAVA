@@ -56,10 +56,8 @@ public class Control1_ex {
 //			level="F";
 //		}
 		
-		
 		// 출력문은 딱 한 번만 사용
 		System.out.println(level);
 
 	}
-
 }

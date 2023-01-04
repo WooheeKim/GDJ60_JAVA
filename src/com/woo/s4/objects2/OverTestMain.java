@@ -7,7 +7,9 @@ public class OverTestMain {
 		
 		ot.hap("a", 0);
 		
-		System.out.println(""+0);
+		System.out.println(11+20);
+		System.out.println(11+20.0);
+		System.out.println("11"+20);
 		
 
 	}

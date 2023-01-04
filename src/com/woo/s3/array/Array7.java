@@ -6,16 +6,14 @@ public class Array7 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		int [] ar = {5,1,4};
 		boolean check = true;
 		
-		int [] ar = {5,1,4};
-
 //		1. 데이터 추가
 		// 0번 인덱스에 추가
 //		2. 데이터 삭제
 		// 0번 인덱스 삭제
 //		3. 종료
-		
 		while(check) {
 			System.out.println("1.데이터 추가	2.데이터 삭제	3.종료");
 			int select = sc.nextInt();
@@ -25,7 +23,7 @@ public class Array7 {
 				select = sc.nextInt();
 				int [] copy = new int [ar.length+1];
 				copy[0] = select;
-				for(int i=0; i<ar.length;i++) {
+				for(int i=0;i<ar.length;i++) {
 					copy[i+1] = ar[i];
 				}
 				
@@ -38,7 +36,7 @@ public class Array7 {
 					copy[i] = ar[i+1];
 				}
 				
-				ar =copy;
+				ar = copy;
 				
 				System.out.println("데이터가 삭제되었습니다.");
 			} else {
@@ -46,12 +44,9 @@ public class Array7 {
 				break;
 			}
 			
-			for(int i=0; i<ar.length;i++) {
+			for(int i=0;i<ar.length;i++) {
 				System.out.println(ar[i]);
 			}
-			
 		}
-
 	}
-
 }

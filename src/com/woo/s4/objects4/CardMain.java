@@ -9,21 +9,21 @@ public class CardMain {
 		
 		Card.staticMethod();
 		
-		Card card = new Card();
-		card.setShape("Heart");
-		card.setColor("Red");
-		card.setNumber(1);
-		
-		Card.size=8;
-		
-		Card card2 = new Card();
-		card2.setShape("Spade");
-		card2.setColor("Black");
-		card2.setNumber(12);
-		
-		
-		card.info();
-		card2.info();
+//		Card card = new Card();
+//		card.setShape("Heart");
+//		card.setColor("Red");
+//		card.setNumber(1);
+//		
+//		Card.size=8;
+//		
+//		Card card2 = new Card();
+//		card2.setShape("Spade");
+//		card2.setColor("Black");
+//		card2.setNumber(12);
+//		
+//		
+//		card.info();
+//		card2.info();
 		
 		
 

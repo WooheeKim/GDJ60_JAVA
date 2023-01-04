@@ -22,9 +22,6 @@ public class LoopWhile1 {
 			} else {
 				System.out.println("번호가 틀렸습니다.");
 			}
-			
 		}
-
 	}
-
 }

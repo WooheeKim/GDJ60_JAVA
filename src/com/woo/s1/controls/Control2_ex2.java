@@ -52,10 +52,10 @@ public class Control2_ex2 {
 			flag=true;
 		}
 		if(flag) {
-		if(kor<40 || eng<40 || math<40) {
-			flag=false;
-		}else {
-			flag=true;
+			if(kor<40 || eng<40 || math<40) {
+				flag=false;
+			} else {
+				flag=true;
 			}
 		}
 		if(flag) {

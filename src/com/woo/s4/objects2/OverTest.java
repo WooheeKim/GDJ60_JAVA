@@ -3,7 +3,7 @@ package com.woo.s4.objects2;
 public class OverTest {
 	
 	// 매개변수 두 개를 받아서 + 한 결과를 리턴
-//	public void hap(int b, int a) {}
+	// public void hap(int b, int a) {}
 	
 	public int hap(int a, int b) {
 		return a+b;

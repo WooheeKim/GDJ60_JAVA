@@ -26,8 +26,5 @@ public class Array3 {
 		for(int i=0;i<ar2.length;i++) {
 			System.out.println(ar2[i]);
 		}
-		
-
 	}
-
 }

@@ -21,24 +21,19 @@ public class LoopFor3_ex2 {
 			int select = sc.nextInt();
 			
 			System.out.println(select);
-			int count = 0;
-			String sound = "";
+			int count = 10;
+			String sound = "타타탕";
+			
 			if(select==1) {
 				sound="탕";
 				count=30;
-
-			} else {
-				sound="타타탕";
-				count=10;
-			}
+			} 
+			
 			for(int b=1;b<=count;b++) {
 					System.out.println(b+" 번째 소리 : "+sound);
-			}				
 			}
-			
 			System.out.println("탄창 하나 소비");
-			
-		}							
-
-	}
+		}
+	}							
+}
 

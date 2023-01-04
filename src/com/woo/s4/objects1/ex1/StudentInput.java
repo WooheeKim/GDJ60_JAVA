@@ -48,17 +48,9 @@ public class StudentInput {
 		}
 		
 		newStudents[students.length] = student;
-		
 		return newStudents;
 	}
 		
-	
-
-	
-	
-			
-	
-	
 	
 	// setAllStudents
 	// 매개변수로 학생배열을 받아서

@@ -7,7 +7,7 @@ public class Array6 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int [] ar = {8,5,13,9,6};
+		int [] ar = {8, 5, 13, 9, 6};
 		
 		// 키보드로부터 삭제하고 싶은 값을 입력 받기
 		System.out.println("삭제 할 숫자 입력 : ");
@@ -27,9 +27,6 @@ public class Array6 {
 		
 		for(int i=0;i<ar.length;i++) {
 			System.out.println(ar[i]);
-		}
-		
-		
+		}	
 	}
-
 }

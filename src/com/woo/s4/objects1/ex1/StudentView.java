@@ -2,16 +2,13 @@ package com.woo.s4.objects1.ex1;
 
 
 public class StudentView {
+
 	// viewList
 	// n명의 학생들을 받아서 학생의 모든 정보를 출력
-	
-	
 	public void view(Student [] students) {
 		for(int i=0;i<students.length;i++) {
 			Student student = students[i];
 			this.view(student);
-			
-			
 		}
 	}
 	
@@ -25,9 +22,6 @@ public class StudentView {
 		System.out.println("Math : "+student.math);
 		System.out.println("Total : "+student.total);
 		System.out.println("Avg : "+student.avg);
-		
-		
-		
 	}
 	
 }

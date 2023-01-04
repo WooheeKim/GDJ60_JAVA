@@ -24,12 +24,11 @@ public class LoopWhile2 {
 			default:
 				System.out.println("종료");
 				check = false;
-				break;
-				
+				break;				
 			}
-			System.out.println("프로그램을 종료합니다.");	
-		}
-		
+			
+			System.out.println("프로그램을 종료합니다.");
+			
+		}	
 	}
-
 }

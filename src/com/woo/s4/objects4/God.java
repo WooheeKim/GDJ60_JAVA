@@ -7,7 +7,7 @@ public final class God {
 	private static God god;
 	
 	private God() {
-		this.name="test";
+//		this.name="test";
 	}
 	
 	public static God getInstance() {
@@ -24,7 +24,7 @@ public final class God {
 		return name;
 	}
 
-	public final void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 	

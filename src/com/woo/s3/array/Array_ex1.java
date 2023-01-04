@@ -57,8 +57,5 @@ public class Array_ex1 {
 			System.out.print(totals[i]+"\t");
 			System.out.println(avgs[i]+"\t");
 		}
-		
-
 	}
-
 }

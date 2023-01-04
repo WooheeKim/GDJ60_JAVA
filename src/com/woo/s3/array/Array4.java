@@ -20,7 +20,5 @@ public class Array4 {
 		for(int i=0;i<ar1.length;i++) {
 			System.out.println(ar1[i]);
 		}
-
 	}
-
 }

@@ -9,7 +9,7 @@ public class Control4 {
 //		
 //		}
 		
-		int num = 3;
+		int num = 7;
 		System.out.println("1. 햄버거");
 		System.out.println("2. 샌드위치");
 		System.out.println("3. 샐러드");

@@ -8,6 +8,7 @@ public class SecretMain {
 		
 		Secret secret = new Secret();
 		com.woo.s4.objects3.p2.Secret secret2 = new com.woo.s4.objects3.p2.Secret();
+		
 		secret.money=1;
 		
 		secret.s1();
@@ -16,7 +17,7 @@ public class SecretMain {
 
 		System.out.println(secret.point);
 		Test test = new Test();
-		System.out.println(test);
+		System.out.println(test.point);
 		
 	}
 

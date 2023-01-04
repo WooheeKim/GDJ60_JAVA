@@ -8,7 +8,7 @@ public class LoopFor1_ex3 {
 		Scanner sc = new Scanner(System.in);
 		int id = 1234;
 		int pw = 5678;
-		boolean check = false;
+		int check = 0;
 		
 		// 로그인 총 5번 시도가능
 		
@@ -16,8 +16,8 @@ public class LoopFor1_ex3 {
 		// 로그인이 성공했으면 "환영합니다." 메시지 출력
 		// 로그인이 실패했으면 "은행을 방문해주세요." 출력
 
-		
-		for(int i=0;i<5;i++) {
+		int i=0;
+		for(i=0;i<5;i++) {
 			System.out.println("ID를 입력해주세요 : ");
 			int yId = sc.nextInt();
 			System.out.println("PW를 입력해주세요 : ");
@@ -25,38 +25,19 @@ public class LoopFor1_ex3 {
 			
 			if(id==yId && pw==yPw) {
 				System.out.println("로그인 성공!");
-				check = true;
-				i=5; // or break;
+				check = 1;
+				i=1000; // or break;
 			} else {
 				System.out.println("로그인실패..");
 			}
-
 		}
 		
-		if(check) {
+		if(i>1000) {
 		System.out.println("환영합니다.");
 		} else {
 		System.out.println("은행을 방문해주세요..");
 		}
-		System.out.println("반복문 종료");
 		
-//		for(int i=0;i<5;i++) {
-//			if(id==yId && pw==yPw) {
-//				System.out.println("로그인 성공! 환영합니다.");
-//				check = true;
-//			} else {
-//				System.out.println("로그인실패..");
-//				System.out.println("ID를 다시 입력해주세요.");
-//				yId = sc.nextInt();
-//				System.out.println("PW를 다시 입력해주세요.");
-//				yPw = sc.nextInt();
-//				check = false;
-//			}
-//			if(id!=yId && pw!=yPw) {
-//				System.out.println("은행을 방문해주세요.");
-//			}
-//		}
-		
-		
+		System.out.println("반복문 종료");		
 	}
 }

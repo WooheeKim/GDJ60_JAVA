@@ -13,7 +13,6 @@ public class LoopFor1_ex1 {
 		
 		// 짝수 출력 if문 없이 출력
 		for(int i=0;i<100;i=i+2) {
-			
 			System.out.println(i);
 		}
 		
@@ -21,7 +20,7 @@ public class LoopFor1_ex1 {
 		
 		//0 ~ 100 미만의 합계를 구하세요.
 		int sum = 0;
-		for(int i=0;i<100;i++) {
+		for(int i=0;i<=100;i++) {
 			sum = sum + i;
 		}
 		System.out.println(sum);
