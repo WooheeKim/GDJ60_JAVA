@@ -7,14 +7,33 @@ public class Card {
 	private int number;
 	private String color;
 	
-	// 
+	// 클래스 변수
 	public static int size = 10;
+	
+	// Instance 초기화 블럭
+	{}
+	
+	// static 초기화 블럭
+	static {
+		Card.size=50;
+	}
+	
+	// 클래스 메서드
+	public static void staticMethod() {
+		Card.size=10;
+		System.out.println("Static Method");
+//		System.out.println(this.shape);
+//		this.info();
+		Card card = new Card();
+		card.info();
+	}
 	
 	public void info() {
 		System.out.println("Shape : "+this.shape);
 		System.out.println("Color : "+this.color);
 		System.out.println("Number : "+this.number);
 		System.out.println("Size : "+Card.size);
+		Card.staticMethod();
 	}
 	
 	public String getShape() {
