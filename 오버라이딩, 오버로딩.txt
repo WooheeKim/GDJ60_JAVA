@@ -1,0 +1,15 @@
+
+public class Super() {
+
+  public void s1() { }
+
+}
+
+public class Child() extedns Super {
+  public void c1() {}
+  public void c1(int i) {}	// 오버로딩
+  public void s1 { }		// 오버라이딩
+  public void s1(int i) {}	// 오버로딩
+  public void c1() {}	// error(중복선언)
+
+}
