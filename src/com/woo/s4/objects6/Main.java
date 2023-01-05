@@ -15,6 +15,11 @@ public class Main {
 		
 		robot = null;
 		
+		System.out.println("Add Robot에서 작업");
+		
+		robot = new Robot();
+		
+		System.out.println(robot);
 		
 		System.out.println("프로그램 종료");
 	}
